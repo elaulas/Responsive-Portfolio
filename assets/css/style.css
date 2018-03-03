@@ -423,20 +423,25 @@ textarea{
     #menu {
         float: right;
         text-align: right;
+        width: 93%;
+        margin-bottom: 10px;
     }
     #my-name {
-        width: 100%;
+        width: 93%;
         clear: both;
-        margin-left: 0;
+        text-align: center;
+        margin-bottom: 10px;
+   
+
     }
     #my-image {
-        width: 400px;
+        width:500px;
         float: none;
     }
 
     .container-main {
-        text-align:center;
-        width: 650px;
+        /* text-align:center; */
+        width: 560px;
     }
 
     footer {
@@ -456,14 +461,26 @@ textarea{
         margin-bottom: 40px;
     }
     #menu {
-        width: 100%;
         text-align: center;
-        margin: 5px auto 5px auto;
+        margin: 5px auto 20px auto;
     }
     .menu {
         font-size: 16pt;
         /* padding-right: 100px; */
         text-align: center;
-        margin: 5px 55px 5px 55px;
+        margin: 5px 40px 10px 40px;
+    }
+
+    #hangman, #trivia { 
+        position: relative;
+
+    }
+    #RPG, #rutgers {
+        position: relative;
+        float: left;
+    } 
+    .gallery {
+        width: 100%;
+        margin-left: 150px;
     }
 }
